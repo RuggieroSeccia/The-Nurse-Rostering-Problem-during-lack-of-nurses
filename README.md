@@ -1,4 +1,4 @@
-# Nursess-shifts-management
+# Scheduling-nurses-shifts
 
 The spread of COVID-19 is requiring an unpredictable effort by healthcare facilities to assist serious patients in recovering. The healthcare system in the North of Italy is collapsing and many other centers might end up in similar conditions very soon. The steep increase of serious patients who need particular care is difficult to be satisfied by the medical staff. Resources are limited and hospitals are not ready to deal with a similar pandemic scenario. While machines such as ventilators can be purchased (assumed their availability), the resource more scarce is represented by highly skilled personnel such as doctors and nurses able to take care of infected patients. In this optic, Operations Research comes to the rescue by offering automated systems for scheduling nurses' shifts. 
 
