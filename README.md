@@ -5,11 +5,13 @@ The spread of COVID-19 is requiring an unpredictable effort by healthcare facili
 This repository has the scope to provide healthcare facilities with some simple mathematical formulations for scheduling the nurses' shifts within a department so to __improve efficiency and reduce stress for the healthcare personnel__.
 
 
-If you are interested in the topic or you would like to implement it somewhere and add some modifications to the problem, do not hesitate to get in contact with me.
+If you are interested in the topic, if you would like to implement it somewhere and/or add some modifications to the problem, do not hesitate to get in contact with me.
 
 
 The repository is made up of the following files:
-- _Scheduling-nurses-shifts.pdf_: PDF file where the problem is introduced, different formulations are described and some numerical results are shown
+- _Scheduling-nurses-shifts.pdf_: PDF file where the problem is introduced, different formulations are described and some numerical results are shown, as a scientific work
 - _Nurses shifts - Version 1.ipynb_: notebook where the first, simple, mathematical model is introduced and defined
 - _Nurses shifts - Version 2.ipynb_: modification of the mathematical model
 - _Nurses shifts - Version 2.ipynb_: further modification of the mathematical model
+
+Note that the jupyter files are written by leveraging open source libraries with the exception of the optimization routine, which is implemented thoguh the IBM Decision Optimization _docplex_ APIs, using IBM ILOG CPLEX 12.9. Docplex has a free version wihch however cannot solve problems with more than 500 variables. For free version, have a look at the [IBM academic initiative](https://developer.ibm.com/docloud/blog/2019/07/04/cplex-optimization-studio-for-students-and-academics/)
